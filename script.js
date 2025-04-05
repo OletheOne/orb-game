@@ -698,9 +698,3 @@ startGameBtn.addEventListener('click', () => {
 });
 
 document.querySelector('.canvas').appendChild(startGameBtn);
-
-// Add to the end of your script.js file
-document.getElementById('start-game').addEventListener('click', () => {
-    document.getElementById('start-game').style.display = 'none';
-    startGame();
-  });
